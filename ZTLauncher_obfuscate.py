@@ -23,7 +23,7 @@ discord = "https://discord.com/users/1119676900462313572"
 
 # เพิ่มฟังก์ชันการส่งแจ้งเตือนผ่าน LINE
 def send_line_notify(message):
-    line_notify_token = '5hBpSkLVXX5ryunQVB946nfCMkjUYZ7ApWsKPce2f79'
+    line_notify_token = ''
     line_notify_api = 'https://notify-api.line.me/api/notify'
     headers = {'Authorization': 'Bearer ' + line_notify_token}
     data = {'message': message}
